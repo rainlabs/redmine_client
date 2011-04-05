@@ -1,5 +1,6 @@
 module RedmineClient
   class Base < ActiveResource::Base
+<<<<<<< HEAD
     # TODO: JSON work is wrong
     self.format = :xml
 
@@ -10,10 +11,7 @@ module RedmineClient
       end
 
       # Get your API key at "My account" page
-      # Author:: oruen
-      # https://github.com/michaek/redmine_client
-      # commit e8ab712e8870dfb239326d1a2e11dbf9ad317b85
-      def token=(val)
+      def token= val
         if val
           (descendants + [self]).each do |resource|
             resource.headers['X-Redmine-API-Key'] = val
@@ -21,7 +19,6 @@ module RedmineClient
         end
       end
     end
-
   end
 
   # Define class dynamically
