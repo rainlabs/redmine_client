@@ -6,7 +6,7 @@ require 'redmine_client/version'
 Gem::Specification.new do |spec|
   spec.name          = "redmine_client"
   spec.version       = RedmineClient::VERSION
-  spec.authors       = ["Vladimir Zyablitskiy", "Eric Davis"]
+  spec.authors       = RedmineClient::AUTHORS
   spec.email         = ["zyablitskiy@gmail.com", "edavis@littlestreamsoftware.com"]
   spec.summary       = %Q{Redmine API client}
   spec.description   = %Q{Access the Redmine REST API with ActiveResource}
@@ -21,5 +21,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "activeresource"
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency "thoughtbot-shoulda"
+  spec.add_development_dependency "rspec"
 end

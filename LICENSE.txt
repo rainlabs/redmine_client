@@ -1,4 +1,4 @@
-Copyright (c) 2014 RainLabs
+Copyright (c) 2010-2014 Eric Davis, Vladimir Zyablitskiy
 
 MIT License
 

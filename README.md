@@ -1,6 +1,6 @@
-# RedmineClient
+# Redmine API Client
 
-TODO: Write a gem description
+Rubygem to access the Redmine API.  Based on the documentation from http://www.redmine.org/wiki/redmine/Rest_api_with_ruby
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+*This gem and the Redmine API is under development and subject to change at any notice.*
+
+There is an example script in bin/test.rb showing the basic usage.
 
 ## Contributing
 
@@ -27,3 +29,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Copyright
+
+Copyright (c) 2010-2014 Eric Davis, Vladimir Zyablitskiy. See LICENSE.txt for details.
