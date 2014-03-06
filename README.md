@@ -6,7 +6,7 @@ Rubygem to access the Redmine API.  Based on the documentation from http://www.r
 
 Add this line to your application's Gemfile:
 
-    gem 'redmine_client'
+    gem 'redmine_client', git: https://github.com/rainlabs/redmine_client
 
 And then execute:
 
@@ -14,22 +14,16 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install redmine_client
+    $ git clone https://github.com/rainlabs/redmine_client.git
+    $ cd redmine_client && gem build redmine_client.gemspec
+    $ sudo gem install redmine_client.gem
 
 ## Usage
 
 *This gem and the Redmine API is under development and subject to change at any notice.*
 
-There is an example script in bin/test.rb showing the basic usage.
-
-## Contributing
-
-1. Fork it ( http://github.com/<my-github-username>/redmine_client/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Tests and example are coming soon...
 
 ## Copyright
 
-Copyright (c) 2010-2014 Eric Davis, Vladimir Zyablitskiy. See LICENSE.txt for details.
+Copyright (c) 2010-2014 Eric Davis, Vladimir Zyablitskiy, Nick Recobra. See LICENSE.txt for details.

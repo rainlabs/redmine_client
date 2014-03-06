@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "redmine_client"
   spec.version       = RedmineClient::VERSION
   spec.authors       = RedmineClient::AUTHORS
-  spec.email         = ["zyablitskiy@gmail.com", "edavis@littlestreamsoftware.com"]
+  spec.email         = RedmineClient::EMAIL
   spec.summary       = %Q{Redmine API client}
   spec.description   = %Q{Access the Redmine REST API with ActiveResource}
-  spec.homepage      = "http://github.com/rainlabs/redmine_client"
+  spec.homepage      = "https://github.com/rainlabs/redmine_client"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
