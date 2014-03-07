@@ -15,8 +15,8 @@ And then execute:
 Or install it yourself as:
 
     $ git clone https://github.com/rainlabs/redmine_client.git
-    $ cd redmine_client && gem build redmine_client.gemspec
-    $ sudo gem install redmine_client.gem
+    $ cd redmine_client
+    $ rake build && rake install
 
 ## Usage
 
